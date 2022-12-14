@@ -12,22 +12,19 @@ namespace Floyd_algorythm__term_work_
 {
     public partial class FormPage5 : Form
     {
-        private string matrixDataStrRow;
         private int[,] matrixDataArray;
 
         public FormPage5(string matrixDataStrRow)
         {
             InitializeComponent();
-
-            this.matrixDataStrRow = matrixDataStrRow;
-            FillMatrixDataArray();
-
-
+            FillMatrixDataArray(matrixDataStrRow);
         }
 
-        private void FillMatrixDataArray()
+        private void FillMatrixDataArray(string dataRow)
         {
-            string[] matrixDataStrRowsArray = matrixDataStrRow.Split('\n');
+            string[] matrixDataStrRowsArray = dataRow.Split('\n');
+
+            matrixDataArray = new int[matrixDataStrRowsArray.Length, matrixDataStrRowsArray.Length];
 
             for (int i = 0; i < matrixDataStrRowsArray.Length; i++)
             {

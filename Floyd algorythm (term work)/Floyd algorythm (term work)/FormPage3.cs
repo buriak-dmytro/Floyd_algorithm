@@ -30,9 +30,10 @@ namespace Floyd_algorythm__term_work_
             streamReader.Close();
             fileStream.Close();
 
+            FormPage5 formPage5 = new FormPage5(matrixDataStrRow);
+
             this.Close();
 
-            FormPage5 formPage5 = new FormPage5(matrixDataStrRow);
             formPage5.Show();
         }
     }

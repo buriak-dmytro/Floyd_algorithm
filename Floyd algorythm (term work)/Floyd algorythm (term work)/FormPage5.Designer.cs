@@ -38,7 +38,14 @@ namespace Floyd_algorythm__term_work_
             this.PanelInitialMatrixData = new System.Windows.Forms.Panel();
             this.PanelResultsOfWork = new System.Windows.Forms.Panel();
             this.toolTipShowShortestPath = new System.Windows.Forms.ToolTip(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.PanelPage4.SuspendLayout();
+            this.PanelInitialMatrixData.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelPage4
@@ -99,6 +106,12 @@ namespace Floyd_algorythm__term_work_
             // 
             this.PanelInitialMatrixData.AutoScroll = true;
             this.PanelInitialMatrixData.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PanelInitialMatrixData.Controls.Add(this.label12);
+            this.PanelInitialMatrixData.Controls.Add(this.label13);
+            this.PanelInitialMatrixData.Controls.Add(this.label14);
+            this.PanelInitialMatrixData.Controls.Add(this.label5);
+            this.PanelInitialMatrixData.Controls.Add(this.label4);
+            this.PanelInitialMatrixData.Controls.Add(this.label3);
             this.PanelInitialMatrixData.Location = new System.Drawing.Point(10, 40);
             this.PanelInitialMatrixData.Name = "PanelInitialMatrixData";
             this.PanelInitialMatrixData.Size = new System.Drawing.Size(310, 200);
@@ -113,6 +126,78 @@ namespace Floyd_algorythm__term_work_
             this.PanelResultsOfWork.Size = new System.Drawing.Size(310, 200);
             this.PanelResultsOfWork.TabIndex = 6;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(50, 48);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label3.Size = new System.Drawing.Size(15, 18);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(65, 48);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label4.Size = new System.Drawing.Size(23, 18);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "11";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(88, 48);
+            this.label5.Margin = new System.Windows.Forms.Padding(0);
+            this.label5.Name = "label5";
+            this.label5.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label5.Size = new System.Drawing.Size(31, 18);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "111";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(88, 66);
+            this.label12.Margin = new System.Windows.Forms.Padding(0);
+            this.label12.Name = "label12";
+            this.label12.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label12.Size = new System.Drawing.Size(31, 18);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "111";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.Location = new System.Drawing.Point(65, 66);
+            this.label13.Margin = new System.Windows.Forms.Padding(0);
+            this.label13.Name = "label13";
+            this.label13.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label13.Size = new System.Drawing.Size(23, 18);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "11";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(50, 66);
+            this.label14.Margin = new System.Windows.Forms.Padding(0);
+            this.label14.Name = "label14";
+            this.label14.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.label14.Size = new System.Drawing.Size(15, 18);
+            this.label14.TabIndex = 9;
+            this.label14.Text = "1";
+            // 
             // FormPage5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -125,6 +210,8 @@ namespace Floyd_algorythm__term_work_
             this.Load += new System.EventHandler(this.FormPage5_Load);
             this.PanelPage4.ResumeLayout(false);
             this.PanelPage4.PerformLayout();
+            this.PanelInitialMatrixData.ResumeLayout(false);
+            this.PanelInitialMatrixData.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -139,5 +226,11 @@ namespace Floyd_algorythm__term_work_
         private System.Windows.Forms.Panel PanelResultsOfWork;
         private System.Windows.Forms.ToolTip toolTipShowShortestPath;
         private System.Windows.Forms.Button ButtonExecuteAlgorythm;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
     }
 }

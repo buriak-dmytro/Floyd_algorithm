@@ -19,15 +19,15 @@ namespace Floyd_algorythm__term_work_
 
         private void ButtonFile_Click(object sender, EventArgs e)
         {
-            this.Close();
             FormPage3 formPage3 = new FormPage3();
+            this.Close();
             formPage3.Show();
         }
 
         private void ButtonManualInput_Click(object sender, EventArgs e)
         {
-            this.Close();
             FormPage4 formPage4 = new FormPage4();
+            this.Close();
             formPage4.Show();
         }
     }
