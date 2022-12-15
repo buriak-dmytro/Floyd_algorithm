@@ -121,6 +121,8 @@ namespace Floyd_algorythm__term_work_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 586);
             this.Controls.Add(this.PanelPage5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormPage5";
             this.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
