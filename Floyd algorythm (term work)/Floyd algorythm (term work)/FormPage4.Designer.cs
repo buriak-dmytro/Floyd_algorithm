@@ -29,25 +29,25 @@ namespace Floyd_algorythm__term_work_
         /// </summary>
         private void InitializeComponent()
         {
-            this.PanelPage3 = new System.Windows.Forms.Panel();
+            this.PanelPage4 = new System.Windows.Forms.Panel();
             this.Label1 = new System.Windows.Forms.Label();
             this.ButtonConfirmMatrixData = new System.Windows.Forms.Button();
             this.Label2 = new System.Windows.Forms.Label();
             this.RichTextBoxMatrixData = new System.Windows.Forms.RichTextBox();
-            this.PanelPage3.SuspendLayout();
+            this.PanelPage4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // PanelPage3
+            // PanelPage4
             // 
-            this.PanelPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PanelPage3.Controls.Add(this.Label1);
-            this.PanelPage3.Controls.Add(this.ButtonConfirmMatrixData);
-            this.PanelPage3.Controls.Add(this.Label2);
-            this.PanelPage3.Controls.Add(this.RichTextBoxMatrixData);
-            this.PanelPage3.Location = new System.Drawing.Point(10, 10);
-            this.PanelPage3.Name = "PanelPage3";
-            this.PanelPage3.Size = new System.Drawing.Size(330, 315);
-            this.PanelPage3.TabIndex = 14;
+            this.PanelPage4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PanelPage4.Controls.Add(this.Label1);
+            this.PanelPage4.Controls.Add(this.ButtonConfirmMatrixData);
+            this.PanelPage4.Controls.Add(this.Label2);
+            this.PanelPage4.Controls.Add(this.RichTextBoxMatrixData);
+            this.PanelPage4.Location = new System.Drawing.Point(10, 10);
+            this.PanelPage4.Name = "PanelPage4";
+            this.PanelPage4.Size = new System.Drawing.Size(330, 325);
+            this.PanelPage4.TabIndex = 14;
             // 
             // Label1
             // 
@@ -63,7 +63,7 @@ namespace Floyd_algorythm__term_work_
             // 
             // ButtonConfirmMatrixData
             // 
-            this.ButtonConfirmMatrixData.Location = new System.Drawing.Point(250, 280);
+            this.ButtonConfirmMatrixData.Location = new System.Drawing.Point(250, 290);
             this.ButtonConfirmMatrixData.Name = "ButtonConfirmMatrixData";
             this.ButtonConfirmMatrixData.Size = new System.Drawing.Size(70, 25);
             this.ButtonConfirmMatrixData.TabIndex = 11;
@@ -79,15 +79,16 @@ namespace Floyd_algorythm__term_work_
             this.Label2.Location = new System.Drawing.Point(10, 35);
             this.Label2.MinimumSize = new System.Drawing.Size(0, 20);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(309, 20);
+            this.Label2.Size = new System.Drawing.Size(308, 30);
             this.Label2.TabIndex = 9;
-            this.Label2.Text = "(use \' \' (space) and \'\\n\' (line feed) only for matrix markup)";
-            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label2.Text = "(use \' \' (space) and \'\\n\' (line feed) only for matrix markup;\r\nuse \"inf\" to indic" +
+    "ate absence of arc)";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // RichTextBoxMatrixData
             // 
             this.RichTextBoxMatrixData.Font = new System.Drawing.Font("Lucida Console", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RichTextBoxMatrixData.Location = new System.Drawing.Point(10, 70);
+            this.RichTextBoxMatrixData.Location = new System.Drawing.Point(10, 80);
             this.RichTextBoxMatrixData.Name = "RichTextBoxMatrixData";
             this.RichTextBoxMatrixData.Size = new System.Drawing.Size(310, 200);
             this.RichTextBoxMatrixData.TabIndex = 10;
@@ -98,22 +99,22 @@ namespace Floyd_algorythm__term_work_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 336);
-            this.Controls.Add(this.PanelPage3);
+            this.ClientSize = new System.Drawing.Size(349, 346);
+            this.Controls.Add(this.PanelPage4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormPage4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Floyd algorythm";
-            this.PanelPage3.ResumeLayout(false);
-            this.PanelPage3.PerformLayout();
+            this.PanelPage4.ResumeLayout(false);
+            this.PanelPage4.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel PanelPage3;
+        private System.Windows.Forms.Panel PanelPage4;
         private System.Windows.Forms.Label Label1;
         private System.Windows.Forms.Button ButtonConfirmMatrixData;
         private System.Windows.Forms.Label Label2;

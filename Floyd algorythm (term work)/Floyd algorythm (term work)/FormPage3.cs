@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Floyd_algorythm__term_work_
 {
@@ -25,16 +26,22 @@ namespace Floyd_algorythm__term_work_
             FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read);
             StreamReader streamReader = new StreamReader(fileStream);
 
-            string matrixDataStrRow = streamReader.ReadToEnd();
+            List<string> temp = new List<string>();
+
+            while (!streamReader.EndOfStream)
+            {
+                temp.Add(streamReader.ReadLine());
+            }
 
             streamReader.Close();
             fileStream.Close();
 
-            FormPage5 formPage5 = new FormPage5(matrixDataStrRow);
+            string[] matrixDataStrRows = temp.ToArray();
+
+            FormPage5 formPage5 = new FormPage5(matrixDataStrRows);
+            formPage5.Show();
 
             this.Close();
-
-            formPage5.Show();
         }
     }
 }
