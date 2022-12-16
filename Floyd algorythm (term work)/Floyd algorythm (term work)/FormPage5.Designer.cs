@@ -115,6 +115,13 @@ namespace Floyd_algorythm__term_work_
             this.PanelResultsOfWork.Size = new System.Drawing.Size(310, 200);
             this.PanelResultsOfWork.TabIndex = 6;
             // 
+            // toolTipShowShortestPath
+            // 
+            this.toolTipShowShortestPath.AutomaticDelay = 5000;
+            this.toolTipShowShortestPath.AutoPopDelay = 5000;
+            this.toolTipShowShortestPath.InitialDelay = 100;
+            this.toolTipShowShortestPath.ReshowDelay = 100;
+            // 
             // FormPage5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);

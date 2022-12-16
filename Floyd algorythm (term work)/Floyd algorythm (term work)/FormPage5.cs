@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices; /* !!! */
+//using System.Runtime.InteropServices; /* !!! */
 using System.Text.RegularExpressions;
 
 namespace Floyd_algorythm__term_work_
@@ -15,9 +15,9 @@ namespace Floyd_algorythm__term_work_
     public partial class FormPage5 : Form
     {
         /* !!! */
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        static extern bool AllocConsole();
+        //[DllImport("kernel32.dll", SetLastError = true)]
+        //[return: MarshalAs(UnmanagedType.Bool)]
+        //static extern bool AllocConsole();
         /* !!! */
 
         private int matrixSize;
@@ -58,6 +58,8 @@ namespace Floyd_algorythm__term_work_
                     {
                         matrixDataArray[i, j] = int.MaxValue;
                     }
+
+                    matrixShortestPaths[i, j] = j;
                 }
             }
         }
@@ -129,7 +131,7 @@ namespace Floyd_algorythm__term_work_
 
         private void FloydAlgorythm()
         {
-            AllocConsole();
+            //AllocConsole();
 
             for (int k = 0; k < matrixSize; k++)
             {
@@ -150,9 +152,25 @@ namespace Floyd_algorythm__term_work_
                             }
                         }
 
+                        //string temp;
+                        //if (matrixDataArray[i, j] == int.MaxValue)
+                        //{
+                        //    temp = "inf";
+                        //}
+                        //else
+                        //{
+                        //    temp = matrixDataArray[i, j].ToString();
+                        //}
+
+                        //Console.Write(temp + "/" + matrixShortestPaths[i, j] + " ");
+
                         CheckChangeColumnLength(i, j);
                     }
+
+                    //Console.WriteLine();
                 }
+
+                //Console.WriteLine();
 
                 OutputStageHeader(k);
                 OutputMatrixData(ref yCoordCurr, PanelResultsOfWork);
