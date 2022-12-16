@@ -118,7 +118,7 @@ namespace Floyd_algorythm__term_work_
             // toolTipShowShortestPath
             // 
             this.toolTipShowShortestPath.AutomaticDelay = 5000;
-            this.toolTipShowShortestPath.AutoPopDelay = 5000;
+            this.toolTipShowShortestPath.AutoPopDelay = 20000;
             this.toolTipShowShortestPath.InitialDelay = 100;
             this.toolTipShowShortestPath.ReshowDelay = 100;
             // 
