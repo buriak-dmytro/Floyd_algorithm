@@ -7,19 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using System.Runtime.InteropServices; /* !!! */
 using System.Text.RegularExpressions;
 
 namespace Floyd_algorythm__term_work_
 {
     public partial class FormPage5 : Form
     {
-        /* !!! */
-        //[DllImport("kernel32.dll", SetLastError = true)]
-        //[return: MarshalAs(UnmanagedType.Bool)]
-        //static extern bool AllocConsole();
-        /* !!! */
-
         private int matrixSize;
         private int[,] matrixDataArray;
         private int[,] matrixShortestPaths;
@@ -124,15 +117,12 @@ namespace Floyd_algorythm__term_work_
         private void ButtonExecuteAlgorythm_Click(object sender, EventArgs e)
         {
             this.ButtonExecuteAlgorythm.Enabled = false;
-            // this.PanelResultsOfWork.Controls.Clear();
 
             FloydAlgorythm();
         }
 
         private void FloydAlgorythm()
         {
-            //AllocConsole();
-
             for (int k = 0; k < matrixSize; k++)
             {
                 columnLength = new int[matrixSize];
@@ -152,25 +142,9 @@ namespace Floyd_algorythm__term_work_
                             }
                         }
 
-                        //string temp;
-                        //if (matrixDataArray[i, j] == int.MaxValue)
-                        //{
-                        //    temp = "inf";
-                        //}
-                        //else
-                        //{
-                        //    temp = matrixDataArray[i, j].ToString();
-                        //}
-
-                        //Console.Write(temp + "/" + matrixShortestPaths[i, j] + " ");
-
                         CheckChangeColumnLength(i, j);
                     }
-
-                    //Console.WriteLine();
                 }
-
-                //Console.WriteLine();
 
                 OutputStageHeader(k);
                 OutputMatrixData(ref yCoordCurr, PanelResultsOfWork);
@@ -201,7 +175,7 @@ namespace Floyd_algorythm__term_work_
         {
             Label labelTemp = new Label();
             labelTemp.MinimumSize = new Size(285, 0);
-            labelTemp.Text = $"Adjacency matrix after algorythm stage {k}:";
+            labelTemp.Text = $"Adjacency matrix after algorithm stage {k}:";
             labelTemp.Location = new Point(0, yCoordCurr);
             this.PanelResultsOfWork.Controls.Add(labelTemp);
 

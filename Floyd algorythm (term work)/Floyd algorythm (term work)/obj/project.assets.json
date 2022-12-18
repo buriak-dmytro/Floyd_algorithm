@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorythm (term work)\\Floyd algorythm (term work).csproj",
-      "projectName": "Floyd algorythm (term work)",
-      "projectPath": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorythm (term work)\\Floyd algorythm (term work).csproj",
+      "projectUniqueName": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorythm (term work)\\Floyd algorithm (term work).csproj",
+      "projectName": "Floyd algorithm (term work)",
+      "projectPath": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorythm (term work)\\Floyd algorithm (term work).csproj",
       "packagesPath": "C:\\Users\\dimb0\\.nuget\\packages\\",
       "outputPath": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorythm (term work)\\obj\\",
       "projectStyle": "PackageReference",

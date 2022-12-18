@@ -61,7 +61,7 @@ namespace Floyd_algorythm__term_work_
             this.ButtonExecuteAlgorythm.Name = "ButtonExecuteAlgorythm";
             this.ButtonExecuteAlgorythm.Size = new System.Drawing.Size(135, 25);
             this.ButtonExecuteAlgorythm.TabIndex = 10;
-            this.ButtonExecuteAlgorythm.Text = "Execute algorythm";
+            this.ButtonExecuteAlgorythm.Text = "Execute algorithm";
             this.ButtonExecuteAlgorythm.UseVisualStyleBackColor = true;
             this.ButtonExecuteAlgorythm.Click += new System.EventHandler(this.ButtonExecuteAlgorythm_Click);
             // 
@@ -71,9 +71,9 @@ namespace Floyd_algorythm__term_work_
             this.Label2.Location = new System.Drawing.Point(10, 290);
             this.Label2.MinimumSize = new System.Drawing.Size(0, 20);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(180, 20);
+            this.Label2.Size = new System.Drawing.Size(177, 20);
             this.Label2.TabIndex = 8;
-            this.Label2.Text = "Results of Floyd algorythm work:";
+            this.Label2.Text = "Results of Floyd algorithm work:";
             this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Label1
@@ -133,7 +133,7 @@ namespace Floyd_algorythm__term_work_
             this.Name = "FormPage5";
             this.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Floyd algorythm";
+            this.Text = "Floyd algorithm";
             this.Load += new System.EventHandler(this.FormPage5_Load);
             this.PanelPage5.ResumeLayout(false);
             this.PanelPage5.PerformLayout();

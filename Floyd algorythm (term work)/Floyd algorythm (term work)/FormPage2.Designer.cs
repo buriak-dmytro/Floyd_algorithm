@@ -88,7 +88,7 @@ namespace Floyd_algorythm__term_work_
             this.MaximizeBox = false;
             this.Name = "FormPage2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Floyd algorythm";
+            this.Text = "Floyd algorithm";
             this.PanelPage2.ResumeLayout(false);
             this.PanelPage2.PerformLayout();
             this.ResumeLayout(false);
