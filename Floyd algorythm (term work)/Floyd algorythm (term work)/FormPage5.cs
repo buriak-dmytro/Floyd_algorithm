@@ -18,7 +18,7 @@ namespace Floyd_algorythm__term_work_
         private int[,] matrixShortestPaths;
         private int[] columnLength;
         private int[,] matrixSetHintsData;
-        private int yCoordCurr = 0;
+        private int yCoordCurr = 6;
 
         public FormPage5(string[] matrixDataStrRows)
         {
@@ -61,7 +61,7 @@ namespace Floyd_algorythm__term_work_
         {
             OutputMatrixData(ref yCoordCurr, this.PanelInitialMatrixData);
 
-            yCoordCurr = 0;
+            yCoordCurr = 6;
         }
 
         private Label PlaceLabel(int i, int j, ref int xCoord, int yCoord, Panel panel)
@@ -92,7 +92,7 @@ namespace Floyd_algorythm__term_work_
 
             panel.Controls.Add(labelTemp);
 
-            xCoord += labelTemp.Size.Width;
+            xCoord += labelTemp.Size.Width + 6;
 
             return labelTemp;
         }
@@ -101,7 +101,7 @@ namespace Floyd_algorythm__term_work_
         {
             for (int i = 0; i < matrixSize; i++)
             {
-                int xCoord = 0;
+                int xCoord = 6;
 
                 for (int j = 0; j < matrixSize; j++)
                 {
@@ -118,10 +118,10 @@ namespace Floyd_algorythm__term_work_
         {
             this.ButtonExecuteAlgorythm.Enabled = false;
 
-            FloydAlgorythm();
+            FloydAlgorithm();
         }
 
-        private void FloydAlgorythm()
+        private void FloydAlgorithm()
         {
             for (int k = 0; k < matrixSize; k++)
             {

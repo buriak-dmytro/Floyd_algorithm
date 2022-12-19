@@ -71,7 +71,7 @@ namespace Floyd_algorythm__term_work_
             this.Label2.Location = new System.Drawing.Point(10, 290);
             this.Label2.MinimumSize = new System.Drawing.Size(0, 20);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(177, 20);
+            this.Label2.Size = new System.Drawing.Size(197, 20);
             this.Label2.TabIndex = 8;
             this.Label2.Text = "Results of Floyd algorithm work:";
             this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
