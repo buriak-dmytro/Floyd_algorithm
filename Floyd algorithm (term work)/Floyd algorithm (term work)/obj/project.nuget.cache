@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SM2JxSb7G3BKRU0fg0U06V8qyH/SHk0/3/JQYAuNrD7Xg0SDbyif30JRfkpkZrg1fz44PO3llFKT0RnahMNiWw==",
+  "dgSpecHash": "ttqcdhvXSTri4IfYUavaCZjk9a3NNLqYA2C7LcrwNeXW5baj+aOz97TxyRKJ71cc0MF5DT6SRE4PT8WKOiwgJw==",
   "success": true,
-  "projectFilePath": "D:\\University ChNU\\Algorythms and data structures\\Term work\\Floyd_algorythm\\Floyd algorythm (term work)\\Floyd algorithm (term work)\\Floyd algorithm (term work).csproj",
+  "projectFilePath": "D:\\University ChNU\\Programming and algorithmic languages\\Term work\\Floyd_algorithm\\Floyd algorithm (term work)\\Floyd algorithm (term work)\\Floyd algorithm (term work).csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimb0\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
   ],

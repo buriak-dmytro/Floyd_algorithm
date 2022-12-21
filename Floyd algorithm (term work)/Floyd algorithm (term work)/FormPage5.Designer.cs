@@ -63,7 +63,7 @@ namespace Floyd_algorythm__term_work_
             this.ButtonExecuteAlgorythm.TabIndex = 10;
             this.ButtonExecuteAlgorythm.Text = "Execute algorithm";
             this.ButtonExecuteAlgorythm.UseVisualStyleBackColor = true;
-            this.ButtonExecuteAlgorythm.Click += new System.EventHandler(this.ButtonExecuteAlgorythm_Click);
+            this.ButtonExecuteAlgorythm.Click += new System.EventHandler(this.ButtonExecuteAlgorithm_Click);
             // 
             // Label2
             // 

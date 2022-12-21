@@ -114,7 +114,7 @@ namespace Floyd_algorythm__term_work_
             yCoord += 24;
         }
 
-        private void ButtonExecuteAlgorythm_Click(object sender, EventArgs e)
+        private void ButtonExecuteAlgorithm_Click(object sender, EventArgs e)
         {
             this.ButtonExecuteAlgorythm.Enabled = false;
 
